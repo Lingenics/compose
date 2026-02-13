@@ -4,7 +4,7 @@ A document formatting language with self-documenting syntax and native Unicode m
 
 Compose, developed between 1972 and 1985, processed source files containing text and control commands (dot commands) to produce formatted output for terminals, printers, and phototypesetters. 
 
-This project recovers Compose, and extends the system with block templates, style classes, and Unicode mathematics. Unlike most such formats (LaTeX comes to mind) a Compose file is readable without rendering. Math requires ten layout commands plus Unicode. No escape sequences.
+This project recovers Compose, and extends the system with block templates, style classes, and Unicode mathematics. Unlike most such formats (LaTeX comes to mind) a Compose file is readable without rendering. Math requires ten layout commands plus Unicode.
 
 ---
 
