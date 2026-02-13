@@ -123,11 +123,11 @@ The result maintains continuity with a 50-year-old design while addressing requi
 
 ## Sources
 
-- Multics Compose documentation, MIT/Honeywell
-- Multics repository archives (git.io/multics)
-- "Multics: History and the End of an Era," Tom Van Vleck
-- ISO 80000-2:2019, Quantities and units — Part 2: Mathematics
+- [Multicians.org](https://multicians.org/) — The authoritative Multics community site
+- [Multics History](https://multicians.org/history.html) — Detailed project history
+- [Multics Source Archives](https://web.mit.edu/multics-history/) — MIT-hosted open source repository
+- [Tom Van Vleck's writings](https://multicians.org/thvv.html) — First-hand accounts from a Multics developer
+- [ISO 80000-2:2019](https://www.iso.org/standard/64973.html) — Quantities and units, Part 2: Mathematics
 
 ---
 
-*The Multics team built for constraints we no longer have. What remains valuable is not their compromises but their principles.*
