@@ -10,7 +10,7 @@ This project recovers Compose, and extends the system with block templates, styl
 
 ## Heritage
 
-｢‍｣ Lingenic Compose descends from Multics Compose, a text formatting system developed at MIT and Honeywell for the Multics operating system—a pioneering time-sharing system that introduced hierarchical file systems, dynamic linking, and ring-based security. The Multics team created systematic naming conventions that made commands self-documenting. When Multics was decommissioned in 2000, Compose went with it. See `HISTORY.md` for the full account.
+｢‍｣ Lingenic Compose descends from Multics Compose, a text formatting system developed at MIT and Honeywell for the [Multics operating system](https://multicians.org/)—a pioneering time-sharing system that introduced hierarchical file systems, dynamic linking, and ring-based security. The Multics team created systematic naming conventions that made commands self-documenting. When Multics was decommissioned in 2000, Compose went with it. See [HISTORY.md](https://github.com/LingenicLLC/compose/blob/main/Documentation/HISTORY.md) for the full account.
 
 ---
 
@@ -64,8 +64,8 @@ Ten layout commands plus Unicode. No escape sequences.
 
 ## Documentation
 
-- `SPECIFICATION.md` — Complete language reference
-- `HISTORY.md` — Heritage and design decisions
+- [SPECIFICATION.md](https://github.com/LingenicLLC/compose/blob/main/Documentation/SPECIFICATION.md) — Complete language reference
+- [HISTORY.md](https://github.com/LingenicLLC/compose/blob/main/Documentation/HISTORY.md) — Heritage and design decisions
 
 ---
 
