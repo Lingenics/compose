@@ -1,6 +1,6 @@
 [｢‍｣ Lingenic](https://lingenic.com/)
 
-# GitHub Repositories
+# ｢‍｣ Lingenic Compose GitHub Repositories
 
 Open source implementations
 
