@@ -1,78 +1,39 @@
-# ｢‍｣ Lingenic Compose
+[｢‍｣ Lingenic](https://lingenic.com/)
 
-A document formatting language with self-documenting syntax and native Unicode mathematics. 
+# GitHub Repositories
 
-Compose, developed at MIT and Honeywell between 1972 and 1985, processed source files to produce formatted output for terminals, printers, and phototypesetters.
+Open source implementations
 
-This project recovers Compose, and extends the system with block templates, style classes, and Unicode mathematics typography (ISO 80000-2). Unlike most such formats (LaTeX comes to mind) a Compose file is readable without rendering. 
+[Home](https://compose.lingenic.com/) · [Specification](https://compose.lingenic.com/specification/) · [History](https://compose.lingenic.com/history/) · [Timeline](https://compose.lingenic.com/timeline/) · [HyperMedia](https://compose.lingenic.com/hypermedia/) · [Fonts](https://compose.lingenic.com/fonts/) · **GitHub**
 
----
+## Renderer
 
-## Heritage
+| Repository                                                   | Description                             |
+| :----------------------------------------------------------- | :-------------------------------------- |
+| [lingenic-compose-to-html-renderer-js](https://github.com/LingenicLLC/lingenic-compose-to-html-renderer-js) | JavaScript renderer for Compose to HTML |
 
-｢‍｣ Lingenic Compose descends from Multics Compose, a text formatting system developed at MIT and Honeywell for the [Multics operating system](https://multicians.org/)—a pioneering time-sharing system that introduced hierarchical file systems, dynamic linking, and ring-based security. The Multics team created systematic naming conventions that made commands self-documenting. When Multics was decommissioned in 2000, Compose went with it. See [HISTORY.md](https://github.com/LingenicLLC/compose/blob/main/Documentation/HISTORY.md) for the full account.
+## Stroke Primitives
 
----
+| Repository                                                   | Description                                                  |
+| :----------------------------------------------------------- | :----------------------------------------------------------- |
+| [lingenic-compose-pen-path](https://github.com/lingenicllc/lingenic-compose-pen-path) | Pen-path primitives for Western lettering and calligraphy    |
+| [lingenic-compose-brush-path](https://github.com/lingenicllc/lingenic-compose-brush-path) | Universal brush mark-making primitives, using Chinese calligraphic terminology |
+| [lingenic-compose-chisel-path](https://github.com/lingenicllc/lingenic-compose-chisel-path) | Chisel-path primitives for inscriptional and engraved letterforms |
 
-## Example
+## Font Formats
 
-```
-.begin-page-header
-.align-center
-Document Title
-.end-page-header
+| Repository                                                   | Description                                                 |
+| :----------------------------------------------------------- | :---------------------------------------------------------- |
+| [lingenic-compose-lettering](https://github.com/lingenicllc/lingenic-compose-lettering) | .lettering format for Western stroke-based fonts            |
+| [lingenic-compose-character](https://github.com/lingenicllc/lingenic-compose-character) | .字 format for CJK fonts                                    |
+| [lingenic-compose-lapidary](https://github.com/lingenicllc/lingenic-compose-lapidary) | .lapidary format for inscriptional fonts                    |
+| [lingenic-compose-engraving](https://github.com/lingenicllc/lingenic-compose-engraving) | .engraving format for copperplate and metal engraving fonts |
 
-.vertical-margin-top 1i
+## Organization
 
-The value of %math: π % is approximately 3.14159.
+All repositories are hosted under the [Lingenic LLC](https://github.com/lingenicllc) GitHub organization.
 
-The quadratic formula:
+**Compose** by [｢‍｣ Lingenic](https://lingenic.com/). Licensed under [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-.begin-math
-𝑥 = (−𝑏 ± √(𝑏² − 4𝑎𝑐)) / (2𝑎)
-.end-math
-```
+© 2026 Lingenic LLC. All rights reserved.
 
----
-
-## Design
-
-**Commands are sentences:**
-```
-.begin-page-header      "Begin a page header"
-.break-page             "Break to a new page"
-.vertical-margin-top    "Set vertical margin at top"
-```
-
-**Math is math:**
-
-| Symbol | Meaning |
-|--------|---------|
-| ∑ | Summation |
-| ∫ | Integral |
-| α | Greek alpha |
-| ℝ | Real numbers |
-| → | Arrow |
-
-Ten layout commands plus Unicode. No escape sequences.
-
-**Structure separates from style:**
-- Block templates define reusable content patterns
-- Style classes define reusable formatting
-
----
-
-## Documentation
-
-- [SPECIFICATION.md](https://github.com/LingenicLLC/compose/blob/main/Documentation/SPECIFICATION.md) — Complete language reference
-- [HISTORY.md](https://github.com/LingenicLLC/compose/blob/main/Documentation/HISTORY.md) — Heritage and design decisions
-
----
-
-## License
-
-Apache 2.0
-
----
-
-*｢‍｣ Lingenic Compose: Because `.begin-page-header` needs no explanation.*
